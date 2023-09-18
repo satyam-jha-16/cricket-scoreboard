@@ -1,0 +1,57 @@
+body{
+    /* background-color: aquamarine; */
+    background-image: url("back.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#score-board{
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    background: rgb(33, 162, 195);
+    padding: 5px 5px;
+    border: none;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+#score{
+    background: black;
+    padding: 5px 10px;
+    color: rgb(255, 25, 25);
+    height: 100px;
+    width: 200px;
+    margin-right: 90px;
+    font-size: 100px;
+}
+#wkt-btn{
+    margin-left: 190px;
+}
+#score-btn{
+    text-align: center;
+
+}
+#wicket{
+    background: black;
+    padding: 5px 10px;
+    color: rgb(255, 25, 25);
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+    font-size: 100px;
+}
+#next-btn{
+    width: auto;
+    color: whitesmoke;
+}
+#last-innings{
+    display: flex;
+    margin: 30px auto;
+    background-color: aquamarine;
+    width: max-content;
+    padding: 4px 8px;
+}

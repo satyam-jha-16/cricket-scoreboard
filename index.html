@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="team-name">INDIA</h1>
+    <div id="score-board">
+        
+        <h1 id="score">0</h1>
+        <h1 id="wicket">0</h1>
+    </div>
+    <div>
+        <div id="score-btn">
+            <button class="btn" onclick="plusOne()">+1</button>
+            <button class="btn" onclick="plusTwo()">+2</button>
+            <button class="btn" onclick="plusThree()">+3</button>
+            <button class="btn" onclick="plusFour()">+4</button>
+            <button class="btn" onclick="plusSix()">+6</button>
+
+            <button class="btn" id="wkt-btn" onclick="plusOneWkt()">+1</button>
+        </div>
+    </div>
+    <p id="last-innings"> Last Innings : </p>
+    <button class="btn" id="next-btn" onclick="changeTeam()">Next Innings</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
